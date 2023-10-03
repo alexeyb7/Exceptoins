@@ -17,8 +17,9 @@ public class App {
                 String cmd = prompt("Еще посчитать (Y/N)?");
                 if (cmd.equals("Y")) {
                     continue;
+                } else {
+                    break;
                 }
-                break;
             }
 
     }
